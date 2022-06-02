@@ -1,0 +1,181 @@
+@charset "utf-8";
+@import "revolution-slider.css";
+@import "owl.carousel.css";
+@import "animate.css";
+@import "cubeportfolio.min.css";
+@import "simple-line-icons.css";
+@import "ionicons.min.css";
+#quote {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#quote #quote-slider {
+    margin: 30px 0 30px 0;
+}
+
+#quote blockquote {
+    position: relative;
+    display: block;
+    line-height: 1.5;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0;
+    color: #fff;
+    border-left: none;
+    text-align: center;
+}
+
+#quote blockquote span {
+    padding-left: 33px;
+}
+
+#quote blockquote span .highlight {
+    padding-left: 0px;
+}
+
+blockquote strong {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+}
+
+#quote .icon-left {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+#quote .icon-right {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -webkit-transform: rotate(180deg);
+}
+
+.quote-author {
+    text-align: center;
+    padding-top: 0px;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+    opacity: .9;
+}
+
+@media (min-width: 992px) {
+    #quote blockquote {
+        font-size: 26px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media (max-width: 992px) {
+    #quote blockquote {
+        font-size: 22px;
+    }
+}
+
+#testimonials {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#testimonials .testimonial {
+    position: relative;
+    display: block;
+}
+
+.testimonial span {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-left: 35px;
+    color: #fff;
+    opacity: .7;
+}
+
+#testimonials .testimonial strong {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+}
+
+#testimonials .icon-left {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#testimonials .icon-right {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    /* IE 9 */
+    -webkit-transform: rotate(180deg);
+}
+
+.testimonial-name {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.testimonial-name img {
+    border-radius: 50px;
+}
+
+.testimonial-name h4 {
+    padding-top: 5px;
+    margin-bottom: 3px;
+}
+
+.testimonial-name a {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.testimonial-name a:hover {
+    color: #aaa;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    color: #1C1C1C;
+    display: inline-block;
+    margin: 5px 3px 10px 3px;
+    padding: 0px 10px;
+    font-size: 12px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.owl-carousel .owl-item {
+    cursor: move;
+    /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.avaliacoes {
+    border-radius: 5px;
+    background-color: #181818;
+    padding: 8px;
+}
